@@ -64,6 +64,6 @@ public class WordPressCRUDTest {
         assertEquals(postId, response.jsonPath().getInt("previous.id"),
                 "previous.id должен равняться удалённому postId");
 
-        System.out.println("Deleted post ID: " + postId);
+        System.out.println("Deleted post ID: " + postId); // вывод информации
     }
 }
